@@ -25,6 +25,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 @Entity
 @Table(name = "usuarios")
 public class Usuario implements UserDetails{
+	
+	/*
+	 * cambio realizado sesion 05
+	 */
 
 	private static final long serialVersionUID = 897436965245870574L;
 
