@@ -17,6 +17,11 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+
+/*
+ * gradle is awesome
+ */
+
 @Entity
 @Table(name = "usuarios")
 public class Usuario implements UserDetails{
